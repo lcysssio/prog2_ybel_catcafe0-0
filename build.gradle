@@ -32,7 +32,10 @@ test {
 
 spotless {
     java {
-        palantirJavaFormat('2.35.0')
+        // use Google Java Format and reflow long strings
+        googleJavaFormat('1.22.0').reflowLongStrings()
+        // prefer 4 spaces indentation for other steps (GJF enforces its own style)
+        indentWithSpaces(4)
         formatAnnotations()
         importOrder()
         removeUnusedImports()
