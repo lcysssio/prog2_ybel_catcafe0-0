@@ -3,7 +3,7 @@ title: Student Support Code for 'Cat-Café' Task
 ---
 
 <!-- pandoc -s -f markdown -t markdown --columns=94 --reference-links=true README.md -->
-
+[![CI](https://github.com/lcysssio/prog2_ybel_catcafe0-0/actions/workflows/gradle.yml/badge.svg)](https://github.com/lcysssio/prog2_ybel_catcafe0-0/actions/workflows/gradle.yml)
 ## About
 
 This represents the student support code for the [Cat-Café task].
