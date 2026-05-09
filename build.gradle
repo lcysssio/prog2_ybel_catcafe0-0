@@ -31,6 +31,7 @@ test {
 }
 
 spotless {
+
     java {
         // use Google Java Format and reflow long strings
         googleJavaFormat('1.22.0').reflowLongStrings()
@@ -42,4 +43,5 @@ spotless {
         trimTrailingWhitespace()
         endWithNewline()
     }
+    //
 }
